@@ -27,7 +27,7 @@
 /*light*/
 @media (prefers-color-scheme: light) {
     body {
-        background-color: black;
+        background-color: gray;
     }
 
     .line-left {
