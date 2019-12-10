@@ -280,3 +280,24 @@ body {
     }
 }
 
+@keyframes animacija-kretanja{
+    from{
+        left: 20px;
+    }
+    to{
+        left: 400px;
+    }
+}
+
+.kretanje{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: animacija-kretanja 4s infinite,
+}
+
+.packman{
+    width: 500%;
+    height: 100px;
+}
+
